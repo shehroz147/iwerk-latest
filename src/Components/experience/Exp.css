@@ -1,0 +1,191 @@
+  .Experience {
+    margin-top: 2%;
+    border-bottom: 1px solid rgb(170, 164, 164);
+    padding-top: 130px;
+    width: 100%;
+    
+    margin: 0 auto;
+    /* height: 100vh; */
+  }
+  @media screen and (max-width:945px) {
+    .Experience {
+      margin-top: 2%;
+      border-bottom: 1px solid rgb(170, 164, 164);
+      padding-top: 120px;
+      width: 100%;
+      
+      margin: 0 auto;
+      /* height: 100vh; */
+    } 
+  }
+  @media screen and (max-width:612px) {
+    .Experience {
+      margin-top: 2%;
+      border-bottom: 1px solid rgb(170, 164, 164);
+      padding-top: 110px;
+      width: 100%;
+      
+      margin: 0 auto;
+      /* height: 100vh; */
+    } 
+  }
+  .Experience h2 {
+    /* color: white; */
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .Experience h2 span {
+    font-weight: 700;
+    margin-left: 10px;
+    text-transform: lowercase;
+  }
+  a {
+    list-style: none;
+    text-decoration: none;
+  }
+  .sactive {
+    color: #ea7726;
+  }
+  .expabout-border {
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    padding: 1% 2%;
+    font-size: 10px;
+    color: rgb(163, 159, 159);
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .expabout-border-2 {
+    border-top: 1px solid grey;
+    padding: 1% 2%;
+    font-size: 10px;
+    color: rgb(163, 159, 159);
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .ptext {
+    /* margin:auto; */
+    /* width: 70%; */
+    /* margin-top: 1%; */
+    /* background-color: aqua; */
+    padding: 5%;
+  }
+  .ptext p {
+    font-size: 15px;
+    color: rgb(65, 63, 63);
+    font-weight: 450;
+  }
+  @media screen and(max-width:372px) {
+    .ptext {
+      margin: auto;
+      /* width: 70%; */
+      margin-top: 2%;
+      margin-left: 5%;
+    }
+  }
+  .next {
+    color: #ea7726;
+    width: 20%;
+    padding: 1%;
+    border-radius: 15px;
+  }
+  .next:hover {
+    animation: next 150ms 2 linear;
+    -moz-animation: next 150ms 2 linear;
+    -webkit-animation: next 150ms 2 linear;
+    -o-animation: next 150ms 2 linear;
+  }
+  @keyframes next {
+    0% {
+      transform: translate(3px, 0);
+    }
+    50% {
+      transform: translate(-3px, 0);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+
+  @-moz-keyframes next {
+    0% {
+      -moz-transform: translate(3px, 0);
+    }
+    50% {
+      -moz-transform: translate(-3px, 0);
+    }
+    100% {
+      -moz-transform: translate(0, 0);
+    }
+  }
+
+  @-webkit-keyframes next {
+    0% {
+      -webkit-transform: translate(3px, 0);
+    }
+    50% {
+      -webkit-transform: translate(-3px, 0);
+    }
+    100% {
+      -webkit-transform: translate(0, 0);
+    }
+  }
+
+  @-ms-keyframes next {
+    0% {
+      -ms-transform: translate(3px, 0);
+    }
+    50% {
+      -ms-transform: translate(-3px, 0);
+    }
+    100% {
+      -ms-transform: translate(0, 0);
+    }
+  }
+
+  @-o-keyframes next {
+    0% {
+      -o-transform: translate(3px, 0);
+    }
+    50% {
+      -o-transform: translate(-3px, 0);
+    }
+    100% {
+      -o-transform: translate(0, 0);
+    }
+  }
+
+  .enterprise i {
+    font-size: 35px;
+  }
+  .enterprise h1 {
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .penter p {
+    font-size: 15px;
+    color: rgb(182, 176, 176);
+  }
+  .line {
+    padding: 0px;
+    display: flex;
+    cursor: pointer;
+  }
+  .line i {
+    font-size: 15px;
+  }
+  .line h3 {
+    font-size: 15px;
+    margin-left: 30px;
+    text-transform: uppercase;
+  }
+  .borderhr {
+    color: #ea7726;
+    height: 10px;
+  }
+  .linedata p {
+    color: grey;
+    font-size: 15px;
+  }

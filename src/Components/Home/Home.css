@@ -1,0 +1,240 @@
+.home {
+  background-image: url("../Pictures//back.jpg") ;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 2%;
+  width: 100%;
+  
+  /* background-position: fixed; */
+  display: table;
+  margin: 0; 
+  max-width: none;
+  height: 100vh;
+}
+.home .logo2 {
+  display: flex;
+  align-items: flex-start;
+}
+.home .logo2 img {
+  width: 8%;
+  height: 10%;
+  /* margin-top: 5%; */
+}
+.home .logo2 p {
+  cursor: pointer;
+  margin-left: 58%;
+  color: white;
+  /* text-transform: uppercase; */
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.home .logo2 p:hover {
+  color: black;
+}
+.texts h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 45px;
+}
+.texts b {
+  color: white;
+  /* text-transform: uppercase; */
+  font-size: 20px;
+}
+/* .home .p{
+    text-align: center;
+ }   */
+.home .p p {
+  color: white;
+  /* margin-left: 5%; */
+}
+.texts p {
+  color: white;
+  /* text-transform: uppercase; */
+  font-size: 15px;
+}
+.hr {
+  color: white;
+  opacity: 10;
+  border: 1px solid white;
+}
+
+.hr2 {
+  padding-bottom: 15px;
+  border-right: 2px solid white;
+  /* border-bottom: 1px solid white; */
+  /* margin-bottom: 10px; */
+}
+@media screen and (max-width: 767px) {
+  .hr2 {
+    border-right: none;
+
+    border-bottom: 1px solid white;
+  }
+.smallh4{
+  margin-top: 10px;
+}
+}
+@media screen and (max-width:991px) {
+  .texts h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 35px;
+  }
+
+}
+@media screen and (max-width:767px) {
+  .texts h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-top: 30px;
+  }
+
+}
+.texts .col-md-3 {
+  padding: 1%;
+}
+.exp {
+  margin-bottom: 4px;
+}
+
+.exp h4 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.expbutton {
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  padding: 5px 25px 5px 25px;
+  margin-right: 10px;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+.expbutton:hover {
+  background-color: black;
+  color: white;
+}
+
+.letsgo {
+  text-align: center;
+  /* padding-top: 0px; */
+  cursor: pointer;
+}
+.letsgo:hover {
+  animation: letsgo 150ms 2 linear;
+  -moz-animation: letsgo 150ms 2 linear;
+  -webkit-animation: letsgo 150ms 2 linear;
+  -o-animation: letsgo 150ms 2 linear;
+}
+@keyframes letsgo {
+  0% {
+    transform: translate(3px, 0);
+  }
+  50% {
+    transform: translate(-3px, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@-moz-keyframes letsgo {
+  0% {
+    -moz-transform: translate(3px, 0);
+  }
+  50% {
+    -moz-transform: translate(-3px, 0);
+  }
+  100% {
+    -moz-transform: translate(0, 0);
+  }
+}
+
+@-webkit-keyframes letsgo {
+  0% {
+    -webkit-transform: translate(3px, 0);
+  }
+  50% {
+    -webkit-transform: translate(-3px, 0);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+  }
+}
+
+@-ms-keyframes letsgo {
+  0% {
+    -ms-transform: translate(3px, 0);
+  }
+  50% {
+    -ms-transform: translate(-3px, 0);
+  }
+  100% {
+    -ms-transform: translate(0, 0);
+  }
+}
+
+@-o-keyframes letsgo {
+  0% {
+    -o-transform: translate(3px, 0);
+  }
+  50% {
+    -o-transform: translate(-3px, 0);
+  }
+  100% {
+    -o-transform: translate(0, 0);
+  }
+}
+
+.letsgo h3 {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  margin-top: 2%;
+}
+.letsgo i {
+  color: white;
+  /* text-transform: uppercase; */
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 2%;
+}
+.active {
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  padding: 5px 25px 5px 25px;
+  margin-right: 10px;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+.letsnotgo {
+  text-align: center;
+  /* padding-top: 0px; */
+  /* cursor: pointer; */
+}
+.letsnotgo i {
+  color: rgb(156, 148, 148);
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 2%;
+}
+.letsnotgo h3 {
+  color: rgb(156, 148, 148);
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  margin-top: 2%;
+}
+.link {
+  /* list-style: none; */
+  text-decoration: none;
+}
